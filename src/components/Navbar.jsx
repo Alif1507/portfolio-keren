@@ -3,7 +3,7 @@ import { navlinks } from '../../constant'
 
 const Navbar = () => {
   return (
-    <nav className='flex justify-around font-sora font-semibold text-white items-center h-16 border-b-1 border-white/80'>
+    <nav className='flex justify-around font-sora font-semibold text-white items-center h-16 border-b-1 border-white/20'>
       <div>
         <h1>MAW</h1>
       </div>

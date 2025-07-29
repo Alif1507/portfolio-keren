@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource-variable/sora": "^5.2.6",
     "@gsap/react": "^2.1.2",
     "@tailwindcss/vite": "^4.1.11",
     "gsap": "^3.13.0",
+    "ogl": "^1.0.11",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "tailwindcss": "^4.1.11"
