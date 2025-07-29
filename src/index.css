@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+@theme {
+  --font-sora: "Sora", sans-serif;
+}
+
+@utility cool-border-gradient {
+  @apply border-b-4 border-transparent bg-gradient-to-r from-[#280087] to-[#C00000] bg-clip-border relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-1 after:bg-gradient-to-r after:from-[#280087] after:to-[#C00000];
+}
