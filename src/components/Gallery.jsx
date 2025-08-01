@@ -76,7 +76,7 @@ const Gallery = () => {
   };
 
   return (
-    <section 
+    <section  id="gallery"
       ref={sectionRef}
       className="mt-32 md:mt-64 px-4 md:px-8" 
       style={{ fontFamily: "Sora Variable" }}

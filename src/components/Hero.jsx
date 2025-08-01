@@ -73,7 +73,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section
+    <section id="home"
       style={{ fontFamily: "Sora Variable" }}
       className="font-sora flex flex-col items-center relative min-h-screen"
     >

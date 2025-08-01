@@ -124,7 +124,7 @@ const Projects = () => {
   };
 
   return (
-    <section 
+    <section id="projects"
       ref={sectionRef}
       className="mt-32 sm:mt-40 md:mt-48 lg:mt-56 xl:mt-64 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16" 
       style={{ fontFamily: "Sora Variable" }}

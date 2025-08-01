@@ -111,7 +111,7 @@ const Achievements = () => {
   }, []);
 
   return (
-    <section 
+    <section  id='achievements'
       ref={sectionRef}
       className="mt-32 sm:mt-40 md:mt-48 lg:mt-56 xl:mt-64 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-28 max-w-7xl mx-auto" 
       style={{ fontFamily: "Sora Variable" }}

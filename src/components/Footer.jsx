@@ -112,7 +112,7 @@ const Footer = () => {
   };
 
   return (
-    <footer 
+    <footer  id='contact'
       ref={footerRef}
       className="relative mt-32 sm:mt-40 md:mt-48 lg:mt-56 xl:mt-64 px-4 sm:px-6 md:px-8 lg:px-12 pb-8 sm:pb-12 md:pb-14" 
       style={{ fontFamily: "Sora Variable" }}
