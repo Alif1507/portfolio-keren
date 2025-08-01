@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CompetitionCard = () => {
+const competitionCard = () => {
   return (
     <article>
         <h1>Competition</h1>
@@ -16,4 +16,4 @@ const CompetitionCard = () => {
   )
 }
 
-export default CompetitionCard
+export default competitionCard
