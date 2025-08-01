@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import CompetitionCard from './assets/competitionCard'
 import CertificationCard from './assets/CertificationCard'
 import { dataCerti } from '../../constant'
 // Swiper imports
