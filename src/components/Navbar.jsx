@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <>
       {/* Desktop Navbar */}
-      <nav className='hidden md:flex justify-around font-sora font-semibold text-white items-center h-16 bg-black/30 backdrop-blur-md border border-white/20 rounded-xl p-6 shadow-lg fixed z-50 w-screen'>
+      <nav className='hidden md:flex justify-around font-sora font-semibold text-white items-center h-16 bg-black/30 backdrop-blur-md border border-white/20 rounded-xl p-6 shadow-lg fixed z-100 w-screen'>
         <div>
           <h1 className='text-xl'>MAW</h1>
         </div>

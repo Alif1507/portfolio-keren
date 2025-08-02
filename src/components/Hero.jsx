@@ -93,6 +93,12 @@ const Hero = () => {
           Photographer. Enjoy my Portfolio.
         </p>
       </div>
+
+      <div className="w-10 h-auto flex items-center justify-center relative z-20 mt-10">
+       <a href="https://github.com/Alif1507" className="w-full h-full object-cover hover:scale-110" target="_blank">
+        <img src="/img/github.png" alt="" />
+       </a>
+      </div>
      
       <div className="mt-[155px] flex flex-col items-center gap-10 relative z-10">
         <h1 className="text-3xl bg-gradient-to-r from-white to-[#999999] bg-clip-text text-transparent font-extralight">

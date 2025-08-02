@@ -10,6 +10,31 @@
   @apply border-b-4 border-transparent bg-gradient-to-r from-[#280087] to-[#C00000] bg-clip-border relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-1 after:bg-gradient-to-r after:from-[#280087] after:to-[#C00000];
 }
 
+@utility masked-img {
+    mask-image: url("/img/mawlogo.png");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: 50%;
+}
+
 body {
   scroll-behavior: smooth;
 }
+
+@utility masked-container {
+            h2 {
+                @apply text-4xl md:text-5xl text-center mb-10 text-white mt-32;
+            }
+
+            div {
+                @apply opacity-0 md:px-0 px-5 space-y-5 absolute md:bottom-5 bottom-52 left-1/2 -translate-x-1/2;
+
+                h3 {
+                    @apply md:text-5xl text-2xl text-center md:w-full w-80 text-white;
+                }
+
+                p {
+                    @apply text-lg text-center;
+                }
+            }
+        }

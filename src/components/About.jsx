@@ -1,48 +1,26 @@
-import React from 'react'
-import Marquee from 'react-fast-marquee'
+import React from "react";
+import Marquee from "react-fast-marquee";
+import ProfileCard from "./assets/ProfileCard";
 
 const About = () => {
   return (
-    <section id='about' className='mt-64'>
-        <div className='flex flex-col gap-10 relative'>
-          <img src="/img/foto-diri.png" className='w-[676px] h-[676px] max-md:h-[400px] max-md:w-auto absolute z-30 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'  alt="" />
-          <Marquee direction='right' className='flex'>
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-        </Marquee>
-
-        <Marquee className='flex'>
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-        </Marquee>
-
-        <Marquee direction='right' className='flex'>
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-          <img src="/img/MAW.png" className='mx-10' alt="" />
-        </Marquee>
-
-        
-        </div>
+    <section id="about" className="mt-64">
+    <div className="flex justify-center items-center scale-130">
+        <ProfileCard
+        name="M. Alif Wahyudi"
+        title="Full Stack Developer"
+        handle="MAW"
+        status="Online"
+        contactText="Contact Me"
+        avatarUrl="/img/foto-diri.png"
+        showUserInfo={true}
+        enableTilt={true}
+        enableMobileTilt={false}
+        onContactClick={() => console.log("Contact clicked")}
+      />
+    </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;

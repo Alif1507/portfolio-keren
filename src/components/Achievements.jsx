@@ -141,7 +141,7 @@ const Achievements = () => {
             <img src="/img/competition-foto.png" alt="" />
             <h1 className='text-white font-semibold text-2xl'>3rd Place I/O Festival (Web App)</h1>
             <p className='text-white text-center text-sm'>"We proudly secured 3rd place in the Web App category at the I/O Festival 2025 with our project, BetFree. This marks our first-ever achievement in a competition, making it a truly memorable milestone."</p>
-            <a href="#" className="my-7">
+            <a href="https://www.instagram.com/p/DLCOzgkJyMl/"  target='_blank' className="my-7 cursor-pointer">
             <button className="text-white font-light border border-white p-3 rounded-xl">See More</button>
           </a>
         </section>
