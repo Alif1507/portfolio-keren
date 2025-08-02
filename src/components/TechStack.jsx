@@ -90,7 +90,7 @@ const TechStack = () => {
   return (
     <section 
       ref={sectionRef}
-      className="mt-16 md:mt-20 lg:mt-90 px-4 md:px-8 lg:px-16" 
+      className="mt-100 px-4 md:px-8 lg:px-16" 
       style={{ fontFamily: "Sora Variable" }}
     >
       <h1 

@@ -8,7 +8,7 @@ const CertificationCard = ({ gambar, judul, link }) => {
             <img src={`/img/${gambar}`} className='h-[180px] w-auto' alt="" />
             <h1 className='text-white font-semibold text-2xl text-center'>{judul}</h1>
             <a href={link} className="my-7" target='_blank'>
-            <button className="text-white font-light border border-white p-3 rounded-xl">See More</button>
+            <button className="text-white font-semibold bg-gradient-to-tr hover:scale-105 from-[#280087] to-[#C00000] cursor-pointer  p-3 rounded-xl">See More</button>
           </a>
         </section>
       </article>

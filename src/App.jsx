@@ -10,6 +10,7 @@ import Projetcs from './components/Projetcs';
 import Achievements from './components/Achievements';
 import Footer from './components/Footer';
 import About from './components/About';
+import Opening from './components/Opening';
 
 gsap.registerPlugin(ScrollTrigger,SplitText);
 
@@ -17,6 +18,7 @@ function App() {
 
   return (
     <main className='bg-black overflow-x-hidden'>
+      <Opening />
       <Navbar />
       <Hero />
       <About />

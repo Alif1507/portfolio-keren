@@ -28,6 +28,7 @@ const Hero = () => {
       opacity: 1,
       y: 0,
       duration: 1.2,
+      delay: 10.9,
       ease: "power3.out",
     })
     // Then animate name characters
@@ -94,8 +95,8 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className="w-10 h-auto flex items-center justify-center relative z-20 mt-10">
-       <a href="https://github.com/Alif1507" className="w-full h-full object-cover hover:scale-110" target="_blank">
+      <div className="w-20 h-auto flex items-center justify-center relative z-20 mt-10 py-1 rounded-2x ">
+       <a href="https://github.com/Alif1507" className="w-1/2 h-1/2 object-fill hover:scale-110"  target="_blank">
         <img src="/img/github.png" alt="" />
        </a>
       </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProjectCard = ({ gambar, judul, parag, img1, img2, img3, img4, tech1, tech2, tech3, tech4, link }) => {
   return (
-    <div className="flex flex-col items-center gap-5 w-[300px] border-white border-1 min-h-[525px] p-4 rounded-2xl">
+    <div className="flex flex-col items-center justify-around gap-5 w-[300px] border-white border-1 min-h-[625px] p-4 rounded-2xl">
           <img src={`/img/${gambar}`} alt="" />
           <h1 className="text-white font-semibold text-2xl">{judul}</h1>
           <p className="text-white text-center text-sm">
@@ -25,7 +25,7 @@ const ProjectCard = ({ gambar, judul, parag, img1, img2, img3, img4, tech1, tech
             </div>
           </div>
           <a href={link} className="my-7 cursor-pointer">
-            <button className="text-white font-light cursor-pointer border border-white p-3 rounded-xl">Visit Site</button>
+            <button className="text-white font-semibold bg-gradient-to-tr hover:scale-105 from-[#280087] to-[#C00000] cursor-pointer  p-3 rounded-xl">Visit Site</button>
           </a>
         </div>
   )
