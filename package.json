@@ -18,6 +18,7 @@
     "@tailwindcss/vite": "^4.1.11",
     "framer-motion": "^12.23.11",
     "gsap": "^3.13.0",
+    "lucide-react": "^0.537.0",
     "meshline": "^3.3.1",
     "motion": "^12.23.12",
     "ogl": "^1.0.11",

@@ -12,7 +12,6 @@ const TechStack = () => {
   const gridRef = useRef(null);
   const itemsRef = useRef([]);
 
-  console.log(techstack);
 
   useEffect(() => {
     const section = sectionRef.current;
@@ -95,7 +94,7 @@ const TechStack = () => {
     >
       <h1 
         ref={titleRef}
-        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl bg-gradient-to-r from-white to-[#999999] bg-clip-text text-transparent font-semibold text-center relative z-50 overflow-hidden"
+        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl bg-gradient-to-r from-white to-[#999999] bg-clip-text text-transparent font-semibold text-center relative z-30 overflow-hidden"
       >
         Tech Stack
       </h1>

@@ -36,7 +36,7 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile Header */}
-      <header className='md:hidden flex justify-between items-center h-16 bg-black/30 backdrop-blur-md border border-white/20 rounded-xl p-6 shadow-lg fixed z-50 w-full'>
+      <header className='md:hidden flex justify-between items-center h-16 bg-black/30 backdrop-blur-md border border-white/20 rounded-xl p-6 shadow-lg fixed z-100 w-full'>
         <div>
           <h1 className='text-xl font-sora font-semibold text-white'>MAW</h1>
         </div>

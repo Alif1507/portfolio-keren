@@ -118,7 +118,7 @@ const Achievements = () => {
     >
       <h1 
         ref={mainTitleRef}
-        className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl bg-gradient-to-r from-white to-[#999999] bg-clip-text text-transparent font-semibold text-center relative z-50 overflow-hidden mb-12 sm:mb-16 md:mb-20'
+        className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl bg-gradient-to-r from-white to-[#999999] bg-clip-text text-transparent font-semibold text-center relative z-30 overflow-hidden mb-12 sm:mb-16 md:mb-20'
       >
         Achievements
       </h1>
