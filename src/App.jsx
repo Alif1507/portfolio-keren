@@ -18,7 +18,7 @@ function App() {
 
   return (
     <main className='bg-black overflow-x-hidden'>
-      {/* <Opening /> */}
+      <Opening />
       <Navbar />
       <Hero />
       <About />
