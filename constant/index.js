@@ -362,7 +362,8 @@ const projectsData = [
     judul: "BetFree",
     parag: "A web-based platform for online gambling rehabilitation, integrated with the Gemini Quiz API to assess user conditions, offering personalized rehabilitation plans and an interactive online forum for peer support and discussion.",
     tech: ["Laravel", "React", "MySQL", "Tailwind"],
-    link : "https://github.com/Alif1507/BetFree"
+    linkDemo : "#",
+    linkCode : "https://github.com/Alif1507/BetFree"
   },
 
   {
@@ -371,7 +372,8 @@ const projectsData = [
     judul: "Jurnailistik 26",
     parag: "Journalism is an extracurricular activity at SMK Negeri 26 Jakarta that aims to develop students' interests and talents in the field of journalism.",
     tech: ["Laravel","php", "MySQL", "Tailwind"],
-    link : "https://jurnalistik26.serv00.net/"
+    linkDemo : "https://jurnalistik26.serv00.net/",
+    linkCode : "https://github.com/Alif1507/jurnal-26-final"
   },
 
   {
@@ -379,8 +381,9 @@ const projectsData = [
     gambar: "infoforyou.png",
     judul: "InfoForYou",
     parag: "#INDONESIAGELAP is a hashtag that refers to the government's incompetence in leading Indonesia, this is currently being widely discussed on social media.",
-    tech: ["HTML", "CSS", "JS", "Vercel"],
-    link : "https://dark-indonesia.vercel.app/"
+    tech: ["HTML", "CSS", "JS", "Motion"],
+    linkDemo : "https://dark-indonesia.vercel.app/",
+    linkCode : "https://github.com/Alif1507/dark-indonesia"
   }
 ]
 
